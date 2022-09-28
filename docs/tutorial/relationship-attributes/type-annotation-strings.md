@@ -30,4 +30,4 @@ And of course, **SQLModel** can also understand it in the string correctly. ✨
 That is actually part of Python, it's the current official solution to handle it.
 
 !!! info
-    There's a lot of work going on in Python itself to make that simpler and more intuitive, and find ways to make it possible to not wrap the class in a string.
+    There's a lot of work going on in Python itself to make that simpler and more intuitive, and find ways to make it possible to not wrap the class in a string. A feature that already exists in **python 3.7 and newer** are [postponed evaluations of annotations](https://peps.python.org/pep-0563/). By using `from __future__ import annotations` type annotations for classes can be used before the class is actually declared.
